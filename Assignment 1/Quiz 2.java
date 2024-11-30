@@ -68,6 +68,7 @@ abstract class BaseTransaction implements TransactionInterface {
     }
 }
 
+
 class DepositTransaction extends BaseTransaction {
     public DepositTransaction(double amount, Calendar date, String transactionID) {
         super(amount, date, transactionID);
